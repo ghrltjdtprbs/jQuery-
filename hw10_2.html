@@ -1,0 +1,36 @@
+<!--
+----------
+학번:201814007
+이름:최혜미
+과제명:hw10_2.html
+-----------
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>제이쿼리 코드 실행</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#btn1').click(function () {
+                $('p').css('background-color', 'yellow');
+            });
+
+            $('#btn2').dblclick(function () {
+                $('p').css('background-color', 'purple');
+            });
+            
+        });
+    </script>
+</head>
+
+<body>
+    <button id="btn1">click</button>
+    <button id="btn2">dblclick</button>
+    <p>내용</p>
+</body>
+
+</html>
